@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+<context:component-scan base-package="com"></context:component-scan>
+
+<bean id="emp" class="com.Employee">
+	<property name="id" value="100"></property>
+	<property name="name" value="Raju"></property>
+</bean>
+
+<bean id="mgr" class="com.Manager" parent="emp" autowire="byName">
+	<property name="numberOfEmp" value="50"></property>
+	<!-- 
+	<property name="add" ref="address"></property>
+	 -->
+</bean>
+<!-- 
+<bean id="ladd" class="com.Address">
+	<property name="city" value="Bangalore"></property>
+	<property name="state" value="Kar"></property>
+</bean>
+ -->
+<bean id="add" class="com.Address">
+	<property name="city" value="Mumbia"></property>
+	<property name="state" value="Mh"></property>
+</bean>
+
+<bean id="mgr1" class="com.Manager"  autowire="constructor" parent="emp">
+
+</bean>
+
+</beans>

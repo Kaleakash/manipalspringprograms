@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+<bean id="obj1" class="com.Employee">
+	<property name="name" value="Ravi"></property>
+	<property name="id" value="100"></property>
+	<property name="add" ref="add1"></property>
+	<property name="ss">
+		<set>
+			<value>IBM</value>
+			<value>IBM</value>
+			<value>Wipro</value>
+			<value>Accenture</value>
+		</set>
+	</property>
+	<property name="ll">
+		<list>
+			<value>100</value>
+			<value>100</value>	
+			<value>200</value>
+			<value>300</value>
+		</list>
+	</property>
+</bean>
+
+<bean id="add1" class="com.Address">
+	<property name="city" value="Bangalore"></property>
+	<property name="state" value="Kar"></property>
+</bean>
+
+<bean id="mgr" class="com.Manager" init-method="init" destroy-method="destroy1"></bean>
+
+</beans>
+
+
+

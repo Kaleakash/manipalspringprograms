@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/jdbc type 4 jar file/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/asm-debug-all-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.aop-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.asm-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.aspects-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.beans-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.context.support-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.context-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.core-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.expression-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.instrument.tomcat-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.instrument-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.jdbc-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.jms-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.orm-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.oxm-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.test-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.transaction-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.web.portlet-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.web.servlet-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.web.struts-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Technology/Framework/Spring Framework/All Jar files/Spring core container 3.x/org.springframework.web-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
